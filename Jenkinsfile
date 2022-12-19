@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('vcs') {
             steps {
-                git branch: 'main', url: 'https://github.com/WorkshopsByKhaja/saleor-dashboard.git'
+                git branch: 'main', url: 'https://github.com/iamsam2772/saleor-dashboard.git'
             }
         }
         stage('docker image build') {
