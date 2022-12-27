@@ -16,7 +16,7 @@ pipeline {
         }
         stage('image tagging') {
             steps {
-                sh 'docker image tag iamsam2772/saleor-dashboar:DEV'
+                sh 'docker image tag saleor-dashboar:DEV iamsam2772/saleor-dashboar:DEV'
             }
         }
         stage('push image to registry') {
